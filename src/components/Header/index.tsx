@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Container,
   Nav,
   InstaLogo,
   SearchWrapper,
