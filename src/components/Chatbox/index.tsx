@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { Container } from './styles';
-import Chatbox from '../Chatbox';
-const Chat: React.FC = () => {
+
+const Chatbox: React.FC = () => {
     return (
         <>
             <Container>
-                <Chatbox />
+
 
 
 
@@ -16,4 +16,4 @@ const Chat: React.FC = () => {
     );
 }
 
-export default Chat;
+export default Chatbox;
