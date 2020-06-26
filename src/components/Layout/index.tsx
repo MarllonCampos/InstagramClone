@@ -1,20 +1,13 @@
 import React from 'react';
-
-import { Container, LogoInsta, SearchInput, Icons, HomeIcon, DirectIcon, ExplorerIcon, LoveIcon, RoundIcon } from './styles';
+import Header from '../Header';
+import Chat from '../Chat';
 
 const Layout: React.FC = () => {
   return (
-      <Container>
-          <LogoInsta />
-          <SearchInput />
-          <Icons>
-              <HomeIcon />
-              <DirectIcon />
-              <ExplorerIcon />
-              <LoveIcon />
-              <RoundIcon />
-          </Icons>
-      </Container>
+    <>
+      <Header />
+      <Chat />
+    </>
   );
 }
 
